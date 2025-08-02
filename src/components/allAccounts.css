@@ -1,0 +1,80 @@
+.container{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .containerimg{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 10px 0 0 35%;
+    z-index: 1;
+    animation-name: floating;
+    animation-duration:2s;
+    animation-iteration-count: infinite;  
+    animation-timing-function: ease-in-out;
+}
+.container .list{
+    height: 800px;
+    width: 680px;
+    background: rgba(255, 255, 255, 0.05);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 20px;
+}
+    
+.container div img{
+    margin-right: 20px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.list .account{
+    margin: 20px 0 0 70px;
+    padding: 20px;
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    box-shadow: 2px 2px 0 5px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+}
+.container .account:hover{
+    background-color: #e1dfdf;
+    cursor: pointer;
+}
+
+
+@keyframes floating{
+    50%{
+        transform: translate(0,5px);
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .container{
+        width: 590px;
+    }
+    .container .list{
+        width: 400px;
+    }
+    .container .list .containerimg{
+        width: 100px;
+        height: 100px;
+        margin: 5px 0 0 160px;
+    }
+    .container .list h2{
+        font-size: 20px;
+    }
+    .container .list .account{
+        width:200px;
+    }
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "title": "Github",
+        "id": "github",
+        "img_url":"git.png",
+        "link" : "https://github.com/Haiderraza185"
+    },
+    
+    {
+        "title": "Portfolio",
+        "id": "protfolio",
+        "img_url":"profile pic.png",
+        "link" : "https://6886583e886b696600d70982--haiderrazaportfoliowebsite.netlify.app/"
+    },
+
+    {
+        "title": "Linkedin",
+        "id": "linkedin",
+        "img_url":"link.png",
+        "link" : "https://www.linkedin.com/in/haider-raza-bb36ab377/"
+    },
+
+    {
+        "title": "Facebook",
+        "id": "facebook",
+        "img_url":"face.png",
+        "link" : "https://www.facebook.com/share/19TpQKqHBA/"
+    },
+
+    {
+        "title": "Instagram",
+        "id": "instagram",
+        "img_url":"insta.png",
+        "link" : "https://6886583e886b696600d70982--haiderrazaportfoliowebsite.netlify.app/"
+    }
+]
