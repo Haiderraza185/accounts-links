@@ -59,22 +59,24 @@
 }
 
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:420px) {
     .container{
-        width: 590px;
+        width: 420px;
     }
     .container .list{
-        width: 400px;
+        width: 300px;
+        margin-right: 50px;
     }
     .container .list .containerimg{
         width: 100px;
         height: 100px;
-        margin: 5px 0 0 160px;
+        margin: 5px 0 0 105px;
     }
     .container .list h2{
         font-size: 20px;
     }
     .container .list .account{
         width:200px;
+        margin-left: 25px;
     }
 }
