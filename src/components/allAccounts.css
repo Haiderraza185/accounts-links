@@ -59,13 +59,9 @@
 }
 
 
-@media screen and (max-width:420px) {
-    .container{
-        width: 420px;
-    }
+@media screen and (max-width:410px) {
     .container .list{
         width: 300px;
-        margin-right: 50px;
     }
     .container .list .containerimg{
         width: 100px;
